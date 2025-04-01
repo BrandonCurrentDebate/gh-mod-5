@@ -1,0 +1,499 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Groundhogg - WooCommerce Integration\n"
+"POT-Creation-Date: 2021-03-01 16:54-0500\n"
+"PO-Revision-Date: 2021-03-01 16:54-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: groundhogg-wooc.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/product-tab.php:58
+#, php-format
+msgid "%s Integration"
+msgstr ""
+
+#: admin/product-tab.php:70
+msgid "Apply Tags"
+msgstr ""
+
+#: admin/product-tab.php:78
+msgid "These tags will be applied whenever someone purchases this product."
+msgstr ""
+
+#: admin/product-tab.php:81
+msgid "Remove Tags"
+msgstr ""
+
+#: admin/product-tab.php:89
+msgid "These tags will be removed whenever someone purchases this product."
+msgstr ""
+
+#: admin/product-tab.php:92
+msgid ""
+"Tags are added/removed when an order is marked as paid or marked as "
+"complete, whichever comes first."
+msgstr ""
+
+#: admin/product-tab.php:95
+msgid "Reverse tags when order refunded."
+msgstr ""
+
+#: admin/product-tab.php:98 includes/plugin.php:96 includes/plugin.php:110
+#: includes/plugin.php:150
+msgid "Enable"
+msgstr ""
+
+#: admin/product-tab.php:103
+msgid ""
+"If the order is refunded any tags that were added will be removed, and tags "
+"that were removed will be added."
+msgstr ""
+
+#: groundhogg-wooc.php:48
+#, php-format
+msgid "%s requires PHP version %s+, plugin is currently NOT RUNNING."
+msgstr ""
+
+#: groundhogg-wooc.php:54
+#, php-format
+msgid ""
+"%s requires WordPress version %s+. Because you are using an earlier version, "
+"the plugin is currently NOT RUNNING."
+msgstr ""
+
+#: groundhogg-wooc.php:76
+#, php-format
+msgid "Groundhogg is not currently active, it must be active for %s to work."
+msgstr ""
+
+#: includes/functions.php:372
+#, php-format
+msgctxt "form_default"
+msgid "I agree to %s's storage and processing of my personal data."
+msgstr ""
+
+#: includes/functions.php:381
+#, php-format
+msgctxt "form_default"
+msgid "I agree to receive marketing offers and updates from %s."
+msgstr ""
+
+#: includes/functions.php:397
+#, php-format
+msgctxt "form_default"
+msgid "Please agree to %s's storage and processing of my personal data."
+msgstr ""
+
+#: includes/functions.php:401
+#, php-format
+msgctxt "form_default"
+msgid "Please agree to receive marketing offers and updates from %s."
+msgstr ""
+
+#: includes/functions.php:455 includes/plugin.php:216
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/functions.php:474
+msgid "WooCommerce Sync Orders"
+msgstr ""
+
+#: includes/functions.php:482
+msgid ""
+"Sync all WooCommerce orders with current settings.This will add any missing "
+"tags to contacts based on products bought by contact."
+msgstr ""
+
+#: includes/functions.php:486
+msgctxt "action"
+msgid "Sync Orders"
+msgstr ""
+
+#: includes/pickers.php:19
+msgid "Please Select a Product"
+msgstr ""
+
+#: includes/plugin.php:74 includes/plugin.php:80
+msgctxt "settings_sections"
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/plugin.php:92
+msgctxt "settings"
+msgid "Enabled WooCommerce compatibility benchmark."
+msgstr ""
+
+#: includes/plugin.php:93
+msgctxt "settings"
+msgid ""
+"Some themes or plugins might cause a conflict with the standard WooCommerce "
+"purchase benchmark. If that happens you can enable this option to fix it."
+msgstr ""
+
+#: includes/plugin.php:106
+msgctxt "settings"
+msgid "Enabled WooCommerce Payment Gateway benchmark."
+msgstr ""
+
+#: includes/plugin.php:107
+msgctxt "settings"
+msgid "This benchmark will fire whenever a specific payment gateway is used."
+msgstr ""
+
+#: includes/plugin.php:120
+msgctxt "settings"
+msgid "Enable WooCommerce GDPR Text"
+msgstr ""
+
+#: includes/plugin.php:121
+msgctxt "settings"
+msgid ""
+"This text will be displayed on th woocommerce checkout page. If GDPR consent "
+"is enabled."
+msgstr ""
+
+#: includes/plugin.php:133
+msgctxt "settings"
+msgid "Enable WooCommerce Marketing Text"
+msgstr ""
+
+#: includes/plugin.php:134
+msgctxt "settings"
+msgid ""
+"This text will be displayed on th woocommerce checkout page as marketing "
+"consent text if GDPR consent is enabled."
+msgstr ""
+
+#: includes/plugin.php:146
+msgctxt "settings"
+msgid "Make GDPR checkboxes required"
+msgstr ""
+
+#: includes/plugin.php:147
+msgctxt "settings"
+msgid ""
+"Customers will be required to consent to GDPR terms and conditions before "
+"checking out."
+msgstr ""
+
+#: includes/replacements.php:36
+msgid "The URL of your cart page."
+msgstr ""
+
+#: includes/replacements.php:41
+msgid "The URL to restore the cart of their last visit."
+msgstr ""
+
+#: includes/replacements.php:46
+msgid "The contents of the cart during their last visit."
+msgstr ""
+
+#: includes/replacements.php:51
+msgid ""
+"Generate a single use percentage coupon code for this contact only. Usage: "
+"{wc_percent_discount.10}. To make for specific products include a list of "
+"ids enclosed in square brackets {wc_percent_discount.10[1,2,3]} and to add "
+"an automatic expiration add the number of days in round brackets "
+"{wc_percent_discount.10[1,2,3](7)}"
+msgstr ""
+
+#: includes/replacements.php:56
+msgid ""
+"Generate a single use flat rate coupon code for this contact only. Usage: "
+"{wc_flat_discount.10}. Same markup as {wc_percent_discount} applies."
+msgstr ""
+
+#: includes/replacements.php:106
+msgid "Cart is empty."
+msgstr ""
+
+#: includes/steps/benchmarks/cart-emptied.php:13
+msgid "Emptied Cart"
+msgstr ""
+
+#: includes/steps/benchmarks/cart-emptied.php:23
+#: includes/steps/benchmarks/cart-emptied.php:40
+msgid "Runs whenever a customer empties their cart."
+msgstr ""
+
+#: includes/steps/benchmarks/new-order.php:26
+msgid "New Order"
+msgstr ""
+
+#: includes/steps/benchmarks/new-order.php:36
+msgid "Runs whenever a new order is created."
+msgstr ""
+
+#: includes/steps/benchmarks/new-order.php:188
+#: includes/steps/benchmarks/order-updated.php:185
+msgid "Any"
+msgstr ""
+
+#: includes/steps/benchmarks/new-order.php:189
+#: includes/steps/benchmarks/order-updated.php:186
+msgid "All"
+msgstr ""
+
+#: includes/steps/benchmarks/new-order.php:207
+#: includes/steps/benchmarks/order-updated.php:220
+#, php-format
+msgid "Order has %s of these products:"
+msgstr ""
+
+#: includes/steps/benchmarks/new-order.php:216
+#: includes/steps/benchmarks/new-order.php:235
+#: includes/steps/benchmarks/new-order.php:254
+#: includes/steps/benchmarks/new-order.php:274
+#: includes/steps/benchmarks/order-updated.php:229
+#: includes/steps/benchmarks/order-updated.php:248
+#: includes/steps/benchmarks/order-updated.php:267
+#: includes/steps/benchmarks/order-updated.php:287
+msgid "Leave blank to ignore."
+msgstr ""
+
+#: includes/steps/benchmarks/new-order.php:224
+#: includes/steps/benchmarks/order-updated.php:237
+#, php-format
+msgid "Order has products in %s of these categories:"
+msgstr ""
+
+#: includes/steps/benchmarks/new-order.php:243
+#: includes/steps/benchmarks/order-updated.php:256
+#, php-format
+msgid "Order has products with %s of these tags:"
+msgstr ""
+
+#: includes/steps/benchmarks/new-order.php:263
+#: includes/steps/benchmarks/order-updated.php:276
+msgid "Order processed with any of these gateways:"
+msgstr ""
+
+#: includes/steps/benchmarks/order-updated.php:24
+msgid "Order Status Changed"
+msgstr ""
+
+#: includes/steps/benchmarks/order-updated.php:32
+msgid "Runs whenever an order status is changed."
+msgstr ""
+
+#: includes/steps/benchmarks/order-updated.php:201
+msgid "Order status changed to:"
+msgstr ""
+
+#: includes/steps/benchmarks/order-updated.php:212
+msgid ""
+"Please select at least one order status. <a href=\"https://docs.woocommerce."
+"com/document/managing-orders/\" target=\"_blank\">Learn more about managing "
+"orders.</a>"
+msgstr ""
+
+#: includes/steps/benchmarks/payment-gateway.php:16
+msgid "Payment Gateway"
+msgstr ""
+
+#: includes/steps/benchmarks/payment-gateway.php:26
+msgid "Runs whenever a customer purchases using a defined payment gateway"
+msgstr ""
+
+#: includes/steps/benchmarks/payment-gateway.php:118
+#: includes/steps/benchmarks/product-added-to-cart.php:163
+#: includes/steps/benchmarks/product-purchased.php:149
+msgid "Run When:"
+msgstr ""
+
+#: includes/steps/benchmarks/payment-gateway.php:126
+msgid "Any payment gateway is used"
+msgstr ""
+
+#: includes/steps/benchmarks/payment-gateway.php:127
+msgid "Any of the following payment gateways are used"
+msgstr ""
+
+#: includes/steps/benchmarks/payment-gateway.php:138
+msgid "Select Payment Gateways:"
+msgstr ""
+
+#: includes/steps/benchmarks/product-added-to-cart.php:26
+msgid "Product Added To Cart"
+msgstr ""
+
+#: includes/steps/benchmarks/product-added-to-cart.php:36
+msgid "Runs whenever a customer adds a product to their cart."
+msgstr ""
+
+#: includes/steps/benchmarks/product-added-to-cart.php:170
+msgid "Any product is added to the cart"
+msgstr ""
+
+#: includes/steps/benchmarks/product-added-to-cart.php:171
+msgid "A product with the following tags is added to the cart"
+msgstr ""
+
+#: includes/steps/benchmarks/product-added-to-cart.php:172
+msgid "A product in the following categories is added to the cart"
+msgstr ""
+
+#: includes/steps/benchmarks/product-added-to-cart.php:173
+msgid "Any of the following products are added to the cart"
+msgstr ""
+
+#: includes/steps/benchmarks/product-added-to-cart.php:184
+#: includes/steps/benchmarks/product-purchased.php:170
+msgid "Select Products:"
+msgstr ""
+
+#: includes/steps/benchmarks/product-added-to-cart.php:199
+#: includes/steps/benchmarks/product-purchased.php:185
+msgid "Select Categories:"
+msgstr ""
+
+#: includes/steps/benchmarks/product-added-to-cart.php:215
+#: includes/steps/benchmarks/product-purchased.php:201
+msgid "Select Tags:"
+msgstr ""
+
+#: includes/steps/benchmarks/product-purchased-alt.php:24
+msgid "Product Purchased (Alt)"
+msgstr ""
+
+#: includes/steps/benchmarks/product-purchased.php:26
+msgid "Product Purchased"
+msgstr ""
+
+#: includes/steps/benchmarks/product-purchased.php:36
+msgid "Runs whenever a customer purchases a product."
+msgstr ""
+
+#: includes/steps/benchmarks/product-purchased.php:156
+msgid "Any product is purchased"
+msgstr ""
+
+#: includes/steps/benchmarks/product-purchased.php:157
+msgid "A product with the following tags is purchased"
+msgstr ""
+
+#: includes/steps/benchmarks/product-purchased.php:158
+msgid "A product in the following categories is purchased"
+msgstr ""
+
+#: includes/steps/benchmarks/product-purchased.php:159
+msgid "Any of the following products are purchased"
+msgstr ""
+
+#: includes/steps/benchmarks/reached-checkout.php:21
+msgid "Reached Checkout"
+msgstr ""
+
+#: includes/steps/benchmarks/reached-checkout.php:31
+msgid "groundhogg-wc"
+msgstr ""
+
+#: includes/steps/benchmarks/reached-checkout.php:73
+msgid "Runs whenever a contact reaches the checkout page."
+msgstr ""
+
+#: reports/base-revenue-wooc.php:56 reports/base-revenue-wooc.php:63
+msgid "Unknown"
+msgstr ""
+
+#: reports/base-revenue-wooc.php:63
+msgid "Broadcast"
+msgstr ""
+
+#: reports/table-highest-revenue-broadcast-emails-wooc.php:16
+#: reports/table-highest-revenue-emails-wooc.php:15
+#: reports/table-lowest-revenue-broadcast-emails-wooc.php:22
+#: reports/table-lowest-revenue-emails-wooc.php:14
+msgid "Email"
+msgstr ""
+
+#: reports/table-highest-revenue-broadcast-emails-wooc.php:17
+#: reports/table-highest-revenue-emails-wooc.php:17
+#: reports/table-highest-revenue-funnels-wooc.php:11
+#: reports/table-lowest-revenue-broadcast-emails-wooc.php:23
+#: reports/table-lowest-revenue-emails-wooc.php:16
+#: reports/table-lowest-revenue-funnels-wooc.php:19
+msgid "Orders"
+msgstr ""
+
+#: reports/table-highest-revenue-broadcast-emails-wooc.php:18
+#: reports/table-highest-revenue-emails-wooc.php:18
+#: reports/table-highest-revenue-funnels-wooc.php:12
+#: reports/table-lowest-revenue-broadcast-emails-wooc.php:24
+#: reports/table-lowest-revenue-emails-wooc.php:17
+#: reports/table-lowest-revenue-funnels-wooc.php:20
+msgid "Revenue"
+msgstr ""
+
+#: reports/table-highest-revenue-emails-wooc.php:16
+#: reports/table-highest-revenue-funnels-wooc.php:10
+#: reports/table-lowest-revenue-emails-wooc.php:15
+#: reports/table-lowest-revenue-funnels-wooc.php:18
+msgid "Funnel"
+msgstr ""
+
+#: reports/wooc-reports-page.php:7
+msgid "Highest Revenue Emails"
+msgstr ""
+
+#: reports/wooc-reports-page.php:11
+msgid "Lowest Revenue Emails"
+msgstr ""
+
+#: reports/wooc-reports-page.php:19
+msgid "Highest Revenue Funnels"
+msgstr ""
+
+#: reports/wooc-reports-page.php:23
+msgid "Lowest Revenue Funnels"
+msgstr ""
+
+#: reports/wooc-reports-page.php:31
+msgid "Highest Revenue Broadcast Emails"
+msgstr ""
+
+#: reports/wooc-reports-page.php:35
+msgid "Lowest Revenue Broadcast Emails"
+msgstr ""
+
+#: reports/wooc-reports.php:19
+msgid "WooCommerce"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Groundhogg - WooCommerce Integration"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://www.groundhogg.io/downloads/woocommerce/?utm_source=wp-"
+"plugins&utm_campaign=plugin-uri&utm_medium=wp-dash"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Integrate Groundhogg with Woocommmerce"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Groundhogg Inc."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid ""
+"https://www.groundhogg.io/?utm_source=wp-plugins&utm_campaign=author-"
+"uri&utm_medium=wp-dash"
+msgstr ""

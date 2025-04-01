@@ -1,0 +1,20 @@
+.emails-list table th:nth-child(4),
+.emails-list table td:nth-child(4),
+.emails-list table th:nth-child(3),
+.emails-list table td:nth-child(3),
+.emails-list table th:nth-child(2),
+.emails-list table td:nth-child(2) {
+     width: auto;
+     min-width: 10px;
+     max-width: 80px;
+}
+
+.emails-list table th:nth-child(4),
+.emails-list table td:nth-child(4),
+.emails-list table th:nth-child(3),
+.emails-list table td:nth-child(3)
+{
+
+     min-width: 10px;
+     max-width: 80px;
+}
