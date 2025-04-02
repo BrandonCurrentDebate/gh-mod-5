@@ -1,0 +1,148 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Groundhogg - Advanced Email Preferences\n"
+"POT-Creation-Date: 2024-04-26 10:43-0400\n"
+"PO-Revision-Date: 2024-04-26 10:42-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: groundhogg-advanced-preferences.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/admin.php:26
+msgctxt "Column label"
+msgid "Shown in preferences"
+msgstr ""
+
+#: admin/admin.php:41
+msgid "Never"
+msgstr ""
+
+#: admin/admin.php:44
+msgid "Always"
+msgstr ""
+
+#: admin/admin.php:47 admin/admin.php:82
+msgid "If tagged"
+msgstr ""
+
+#: admin/admin.php:69 admin/admin.php:115
+msgid "Show as preference"
+msgstr ""
+
+#: admin/admin.php:81
+msgid "Never show"
+msgstr ""
+
+#: admin/admin.php:83
+msgid "Always show"
+msgstr ""
+
+#: admin/admin.php:93 admin/admin.php:117
+msgid ""
+"This will allow contacts to opt in or out of receiving information related "
+"to this tag."
+msgstr ""
+
+#: groundhogg-advanced-preferences.php:46
+#, php-format
+msgid "%s requires PHP version %s+, plugin is currently NOT RUNNING."
+msgstr ""
+
+#: groundhogg-advanced-preferences.php:52
+#, php-format
+msgid ""
+"%s requires WordPress version %s+. Because you are using an earlier version, "
+"the plugin is currently NOT RUNNING."
+msgstr ""
+
+#: groundhogg-advanced-preferences.php:74
+#, php-format
+msgid "Groundhogg is not currently active, it must be active for %s to work."
+msgstr ""
+
+#: includes/plugin.php:49
+msgctxt "settings"
+msgid "Disable the Weekly and Monthly preference."
+msgstr ""
+
+#: includes/plugin.php:50
+msgctxt "settings"
+msgid ""
+"This will prevent contacts from changing their preference to weekly or "
+"monthly. This will not affect any contacts who have already changed their "
+"preferences."
+msgstr ""
+
+#: includes/plugin.php:53
+msgid "Disable"
+msgstr ""
+
+#: includes/plugin.php:63
+msgctxt "settings"
+msgid "Allow contacts to opt out of funnels."
+msgstr ""
+
+#: includes/plugin.php:64
+msgctxt "settings"
+msgid ""
+"This will allow contacts to opt out of funnels they are currently active in."
+msgstr ""
+
+#: includes/plugin.php:67
+msgid "Enable"
+msgstr ""
+
+#: includes/plugin.php:81
+msgctxt "settings_sections"
+msgid "Preferences"
+msgstr ""
+
+#: includes/preferences.php:123
+msgid "Communication preferences"
+msgstr ""
+
+#: includes/preferences.php:124
+msgid ""
+"Select what, how, and when we communicate with you."
+msgstr ""
+
+#: includes/preferences.php:199
+msgid "Update my preferences"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Groundhogg - Advanced Email Preferences"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://www.groundhogg.io/downloads/advanced-preferences/?utm_source=wp-"
+"plugins&utm_campaign=plugin-uri&utm_medium=wp-dash"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Allow customers to manage their subscriptions to certain tags."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Groundhogg Inc."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid ""
+"https://www.groundhogg.io/?utm_source=wp-plugins&utm_campaign=author-"
+"uri&utm_medium=wp-dash"
+msgstr ""
